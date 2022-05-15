@@ -1,0 +1,17 @@
+$xs: 576px; // Extra small
+$sm: 768px; // Small
+$md: 992px; // Medium
+
+// landscape iPad/Tablet, 768px and up
+@mixin tablet-landscape {
+    @media only screen and (min-width: ($sm + 1px)) and (max-width: $md) {
+        @content;
+    }
+}
+
+// Mobile phone, 600px and down
+@mixin phone {
+    @media only screen and (max-width: $xs) {
+        @content;
+    }
+}

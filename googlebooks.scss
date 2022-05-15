@@ -1,0 +1,55 @@
+@use "books";
+@use "colortext";
+
+body {
+    background-image: url("Trinity College Library.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    $primary-color: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica,
+        Arial;
+    font-size: 50px;
+    color: white;
+}
+
+form {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+#searchinput {
+    width: 450px;
+    height: 30px;
+}
+
+#searchbooks {
+    height: 30px;
+    $primary-color: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica,
+        Arial;
+    font-weight: bold;
+}
+
+#display {
+    text-align: center;
+}
+
+h5 {
+    color: white;
+    text-align: center;
+    $primary-color: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica,
+        Arial;
+    font-size: 12px;
+}
+
+p {
+    $primary-text: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica,
+        Arial;
+    text-align: center;
+    color: black;
+    font-size: 12px;
+}
